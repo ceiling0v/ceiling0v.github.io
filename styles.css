@@ -1,0 +1,100 @@
+@font-face {
+    font-family: defaultFont;
+    src: url(assets/firamono/FiraMono-Regular.ttf);
+}
+
+@font-face {
+    font-family: sans-serif;
+    src: url(assets/nunito/Nunito[wght].ttf);
+}
+
+code {
+    font-family: defaultFont;
+}
+
+body {
+    background-image: url("assets/bg_keyart.jpg");
+    background-attachment: fixed;
+    background-size: fill;
+    text-align: center;
+    text-shadow: 3px 3px 3px rgba(1, 1, 1, 0.75);
+    color: white;
+    background-color: black;
+    font-family: defaultFont;
+}
+
+a {
+    color: cyan;
+}
+
+img.screenshot {
+    border-radius: 16px;
+    box-shadow: 16px 16px 8px rgba(1, 1, 1, 0.5);
+}
+
+img.gameplayGif {
+    outline: 1px solid white;
+    border-radius: 16px;
+    box-shadow: 0px 0px 64px -32px white;
+}
+
+div.topDiv {
+    color: cyan;
+    background-image: url("assets/ui_lineseffect_tiling.png");
+    padding: 8px;
+    border-radius: 8px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: cyan;
+    outline: 1px solid white;
+}
+
+p.mainText {
+    font-family:sans-serif;
+    text-align:left;
+    font-size:24px;
+    max-width:960px;
+    margin:auto;
+}
+
+div.faqAnswer {
+    font-family:sans-serif;
+    text-align:left;
+    font-size:32px;
+    max-width:50%;
+    margin:auto;
+    background-image: url("assets/ui_lineseffect_tiling.png");
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 32px;
+    border-radius: 8px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: cyan;
+    outline: 1px solid white;
+}
+
+img.iconBlurShadow {
+    -webkit-filter: drop-shadow(1px 1px 4px black)
+    drop-shadow(-1px -1px 4 black);
+    filter: drop-shadow(1px 1px 4px black)
+    drop-shadow(-1px -1px 4px black);
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 52px;
+}
+
+h3 {
+    font-size: 42px;
+    font-family: defaultFont;
+    text-align: center;
+}
+
+li {
+    padding-bottom: 12px
+}
