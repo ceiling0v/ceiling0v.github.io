@@ -14,8 +14,10 @@ code {
 
 body {
     background-image: url("assets/bg_keyart.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: fill;
+    background-size: cover;
     text-align: center;
     text-shadow: 3px 3px 3px rgba(1, 1, 1, 0.75);
     color: white;
