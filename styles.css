@@ -13,6 +13,8 @@ code {
 }
 
 body {
+    padding-left: 32px;
+    padding-right: 32px;
     background-image: url("assets/bg_keyart.jpg");
     background-position: center;
     background-repeat: no-repeat;
